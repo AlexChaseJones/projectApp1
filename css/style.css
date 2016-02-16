@@ -23,15 +23,16 @@ div {
 }
 
 #sideBar-button {
-
+	float: left;
 }
 
 #titleBar {
-
+	display: inline-block;
+	float: left;
 }
 
 #actionMenu {
-
+	float: right;
 }
 
 #content {
