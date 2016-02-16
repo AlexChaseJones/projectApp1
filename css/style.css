@@ -1,0 +1,72 @@
+div {
+	border:1px solid black;
+}
+
+
+#absoluteContainer {
+	width: 100%;
+	height:100%;
+}
+
+/*-----Main Content-----*/
+#mainContent {
+	width: 100%;
+	height: 100%;
+}
+
+#mainContent > .container {
+
+}
+
+#navbar {
+
+}
+
+#sideBar-button {
+
+}
+
+#titleBar {
+
+}
+
+#actionMenu {
+
+}
+
+#content {
+
+}
+
+/*-----Side Bar-----*/
+#sideBar {
+
+}
+
+#sideBar > .container {
+
+}
+
+#sideHeader {
+
+}
+
+#sideContentOne {
+
+}
+
+#sideContentTwo {
+
+}
+
+#sideContentThree {
+
+}
+
+#footerBar {
+
+}
+
+
+
+	
