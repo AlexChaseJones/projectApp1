@@ -15,7 +15,7 @@ body {
 }
 
 h1 {
-	font-size: 3em;
+	font-size: 6em;
 }
 
 .container {
@@ -100,12 +100,15 @@ h1 {
 }
 
 #sideHeader {
+	position: relative;
 	height: 30%;
 	border: 5px solid red;
 }
 
 #sideHeader > h1 {
-	float: right;
+	position: absolute;
+	bottom:0px;
+	right: 0px;
 }
 
 #sideContentOne {
