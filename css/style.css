@@ -19,7 +19,7 @@ h1 {
 }
 
 h2 {
-	font-size: 4em;
+	font-size: 3em;
 }
 .container {
 	padding-right: 0px;
@@ -82,8 +82,8 @@ h2 {
 }
 
 #sideBar > .container {
-	border-right:15px solid;
-	border-color: rgba(255,255,255,.8);
+	border-right:10px solid;
+	border-color: rgba(255,255,255,.7);
 }
 
 #sideBlur {
@@ -105,7 +105,7 @@ h2 {
 #sideHeader {
 	position: relative;
 	height: 25%;
-	background-color: rgba(0,0,0,.6);
+	background-color: rgba(0,0,0,.5);
 }
 
 #sideHeader > h1 {
@@ -115,9 +115,9 @@ h2 {
 }
 
 .contentTitle {
-	background-color: rgba(0,0,0,.7);
+	background-color: rgba(0,0,0,.6);
 	margin:0px;
-	padding:30px;
+	padding:20px;
 }
 #sideContentOne {
 	height: 30%;
