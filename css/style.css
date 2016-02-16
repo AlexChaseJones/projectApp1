@@ -25,6 +25,7 @@ body,html{
 	height: 100%;
 	background-image: url("../images/backgrounds/astroids.png");
 	background-size: cover;
+	background-position: center;
 	z-index: 0;
 }
 
@@ -74,15 +75,16 @@ body,html{
     height:100%;
     background-image:url("../images/backgrounds/astroids.png");
     background-size:cover;
+    background-position: cnter;
     position: absolute;
     z-index: -1;
     top:-10px;
     left:-10px;
-    -webkit-filter: blur(10px);
-    -moz-filter: blur(10px);
-    -ms-filter: blur(10px);
-    -o-filter: blur(10px);
-    filter: blur(10px);
+    -webkit-filter: blur(15px);
+    -moz-filter: blur(15px);
+    -ms-filter: blur(15px);
+    -o-filter: blur(15px);
+    filter: blur(15px);
 }
 
 #sideHeader {
