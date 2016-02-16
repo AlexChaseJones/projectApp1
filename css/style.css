@@ -67,7 +67,8 @@ body,html{
 }
 
 #sideBar > .container {
-	border-right:5px solid white;
+	border-right:15px solid white;
+		overflow: scroll;
 }
 
 #sideBlur {
@@ -75,7 +76,6 @@ body,html{
     height:100%;
     background-image:url("../images/backgrounds/astroids.png");
     background-size:cover;
-    background-position: cnter;
     position: absolute;
     z-index: -1;
     top:-10px;
@@ -88,25 +88,28 @@ body,html{
 }
 
 #sideHeader {
-	width: 100%;
-	height: 300px;
-	background-color: none;
+	height: 35%;
+	border: 5px solid red;
 }
 
 #sideContentOne {
-
+	height: 35%;
+	border: 5px solid red;
 }
 
 #sideContentTwo {
-
+	height: 35%;
+	border: 5px solid red;
 }
 
 #sideContentThree {
-
+	height: 35%;
+	border: 5px solid red;
 }
 
 #footerBar {
-
+	height: 20%;
+	border: 5px solid red;
 }
 
 
