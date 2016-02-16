@@ -29,6 +29,7 @@ div {
 #titleBar {
 	display: inline-block;
 	float: left;
+	margin-left: 35px;
 }
 
 #actionMenu {
