@@ -8,7 +8,7 @@ body,html{
 }
 
 body {
-  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue Ultra Light', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-weight: 300;
   letter-spacing: 1px;
   color: white;
@@ -18,6 +18,9 @@ h1 {
 	font-size: 6em;
 }
 
+h2 {
+	font-size: 4em;
+}
 .container {
 	padding-right: 0px;
 	padding-left: 0px;
@@ -101,29 +104,31 @@ h1 {
 
 #sideHeader {
 	position: relative;
-	height: 30%;
-	border: 5px solid red;
+	height: 25%;
+	background-color: rgba(0,0,0,.6);
 }
 
 #sideHeader > h1 {
 	position: absolute;
 	bottom:0px;
-	right: 0px;
+	right: 20px;
 }
 
+.contentTitle {
+	background-color: rgba(0,0,0,.7);
+	margin:0px;
+	padding:30px;
+}
 #sideContentOne {
 	height: 30%;
-	border: 5px solid red;
 }
 
 #sideContentTwo {
 	height: 30%;
-	border: 5px solid red;
 }
 
 #footerBar {
 	height: 10%;
-	border: 5px solid red;
 }
 
 
