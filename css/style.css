@@ -114,6 +114,18 @@ h2 {
 	right: 20px;
 }
 
+#sideBarLogo {
+	position: relative;
+	display: inline-block;
+	right: 50px;
+	bottom: 50px;
+}
+
+#sideBarLogo img {
+	height: 300px;
+	width: 300px;
+}
+
 .contentTitle {
 	background-color: rgba(0,0,0,.6);
 	margin:0px;
