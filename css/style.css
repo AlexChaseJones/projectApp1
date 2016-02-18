@@ -40,7 +40,7 @@ h2 {
 	height: 100%;
 	background-image: url("../images/backgrounds/mainBackground.png");
 	background-size: cover;
-	background-position: bottom;
+	background-position: top right;
 	z-index: 0;
 }
 
@@ -86,6 +86,7 @@ h2 {
 #sideBar > .container {
 	border-right:10px solid;
 	border-color: rgba(255,255,255,.7);
+	overflow: scroll;
 }
 
 #sideBlur {
@@ -93,7 +94,7 @@ h2 {
     height:100%;
     background-image:url("../images/backgrounds/sideBarBackground.png");
     background-size:cover;
-    background-position: bottom;
+    background-position: top left;
     position: absolute;
     z-index: -1;
     top:-10px;
@@ -108,24 +109,25 @@ h2 {
 
 #sideHeader > h1 {
 	position: absolute;
-	bottom:0px;
-	right: 20px;
+	bottom:10px;
+	right: 50px;
 }
 
 #sideBarLogo {
 	position: relative;
 	display: inline-block;
-	right: 70px;
-	bottom: 70px;
+	right: 100px;
+	bottom: 170px;
 }
 
 #sideBarLogo img {
-	height: 380px;
-	width: 380px;
-	border-radius: 190px;
-	background-color: rgba(105,0,0,.1);
-	box-shadow: 0px 0px 15px 3px black;
-	padding: 50px;
+	height: 480px;
+	width: 480px;
+	border-radius: 240px;
+	background-color: rgba(255,255,255,.1);
+	border:20px solid #913d32;
+	box-shadow: 0px 0px 15px 2px black;
+	padding: 80px;
 }
 
 .contentTitle {
@@ -142,7 +144,7 @@ h2 {
 }
 
 #footerBar {
-	height: 10%;
+	height: 30%;
 }
 
 /*-----jQuery Toggles-----*/
