@@ -117,13 +117,17 @@ h2 {
 #sideBarLogo {
 	position: relative;
 	display: inline-block;
-	right: 50px;
-	bottom: 50px;
+	right: 70px;
+	bottom: 70px;
 }
 
 #sideBarLogo img {
-	height: 300px;
-	width: 300px;
+	height: 380px;
+	width: 380px;
+	border-radius: 190px;
+	background-color: rgba(0,0,0,.3);
+	box-shadow: 0px 0px 15px 3px black;
+	padding: 50px;
 }
 
 .contentTitle {
