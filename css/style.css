@@ -40,7 +40,7 @@ h2 {
 	height: 100%;
 	background-image: url("../images/backgrounds/mainBackground.png");
 	background-size: cover;
-	background-position: top right;
+	background-position: top left;
 	z-index: 0;
 }
 
@@ -81,6 +81,9 @@ h2 {
     top:0px;
     left: -950px;
 	padding-right:0px;
+	background-image:url("../images/backgrounds/sideBarBackground.png");
+    background-size:cover;
+    background-position: top left;
 }
 
 #sideBar > .container {
@@ -92,9 +95,6 @@ h2 {
 #sideBlur {
 	width:102%;
     height:100%;
-    background-image:url("../images/backgrounds/sideBarBackground.png");
-    background-size:cover;
-    background-position: top left;
     position: absolute;
     z-index: -1;
     top:-10px;
