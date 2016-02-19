@@ -3,8 +3,8 @@
 }
 
 body,html{
-  height:100%;
- 
+	height:100%;
+ 	overflow: hidden;
 }
 
 body {
@@ -84,21 +84,14 @@ h2 {
 	background-image:url("../images/backgrounds/sideBarBackground.png");
     background-size:cover;
     background-position: top left;
+    overflow: hidden;
 }
 
 #sideBar > .container {
 	border-right:10px solid;
 	border-color: rgba(255,255,255,.7);
-	overflow: scroll;
-}
-
-#sideBlur {
-	width:102%;
-    height:100%;
-    position: absolute;
-    z-index: -1;
-    top:-10px;
-    left:-10px;
+	overflow-y: auto;
+	width:100%;
 }
 
 #sideHeader {
@@ -150,6 +143,32 @@ h2 {
 
 #footerBar {
 	height: 30%;
+}
+
+/*-----Content blocks-----*/
+.contentContainer {
+	height: 100%;
+	overflow-y: hidden; 
+	overflow-x: auto;
+	white-space: nowrap;
+
+}
+.memberBlock {
+	height: 200px;
+	margin:4% 2%;
+	width:65%;
+	border-radius: 105px;
+	display: inline-block;
+	border:1px solid white;
+}
+
+.memberBlock > img {
+	width: 180px;
+	height: 180px;
+	padding:0px;
+	margin: 10px;
+	border:5px solid black;
+	border-radius: 90px;
 }
 
 /*-----jQuery Toggles-----*/
