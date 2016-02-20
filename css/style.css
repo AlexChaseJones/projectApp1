@@ -58,6 +58,15 @@ h2 {
 	position: relative;
 }
 
+#sideBar-button img {
+	height: 120px;
+	width: 120px;
+	opacity: .7;
+	margin-top: 20px;
+	background-color: rgba(255,255,255,.3);
+	border-radius: 60px;
+}
+
 #titleBar {
 	display: inline-block;
 	float: left;
@@ -66,6 +75,15 @@ h2 {
 
 #actionMenu {
 	float: right;
+}
+
+#actionMenu img{
+	width: 120px;
+	height: 120px;
+	margin: 20px;
+	opacity: .7;
+	background-color: rgba(255,255,255,.3);
+	border-radius: 60px;
 }
 
 #content {
@@ -134,11 +152,11 @@ h2 {
 	padding:20px;
 }
 #sideContentOne {
-	height: 30%;
+	height: 33%;
 }
 
 #sideContentTwo {
-	height: 30%;
+	height: 21%;
 }
 
 #footerBar {
@@ -153,6 +171,7 @@ h2 {
 	white-space: nowrap;
 
 }
+/*-----Members-----*/
 .memberBlock {
 	height: 210px;
 	margin:4% 2% 0% 2%;
@@ -165,6 +184,7 @@ h2 {
 
 .memberAdd {
 	width: 210px;
+	opacity: .7;
 }
 
 .memberBlock > img {
@@ -177,19 +197,39 @@ h2 {
 	display: inline-block;
 }
 
-.memberAdd > img {
-	opacity: .4;
-	width: 190px;
-	height:190px;
-	padding:25px;
-}
-
 .memberName {
 	font-size: 3em;
 	display: inline-block;
 	position: absolute;
 	top:58px;
 	right:40px;
+}
+
+/*-----Recent Clusters-----*/
+.clusterBlock {
+	height: 210px;
+	margin:4% 2% 0% 2%;
+	width:210px;
+	border-radius: 105px;
+	display: inline-block;
+	position: relative;
+	background-color: rgba(0,0,0,.5);
+}
+
+.clusterBlock  img {
+	width: 190px;
+	height: 190px;
+	margin: 10px;
+	background-color: #348899;
+	border-radius: 95px;
+	display: inline-block;
+}
+
+.clusterBlock  h3 {
+	font-size: 2.8em;
+	position: relative;
+	bottom: 15px;
+	text-align: center;
 }
 
 /*-----jQuery Toggles-----*/
