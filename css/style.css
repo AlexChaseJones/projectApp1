@@ -48,7 +48,8 @@ h2 {
 
 }
 
-#navbar {
+#head {
+	width: 100%;
 
 }
 
@@ -67,10 +68,10 @@ h2 {
 	border-radius: 60px;
 }
 
-#titleBar {
+#titleBar h1 {
 	display: inline-block;
 	float: left;
-	margin-left: 35px;
+	padding:15px 0px 0px 190px;
 }
 
 #actionMenu {
