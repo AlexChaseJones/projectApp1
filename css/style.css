@@ -176,11 +176,14 @@ h2 {
 .memberBlock {
 	height: 210px;
 	margin:4% 2% 0% 2%;
-	width:65%;
+	overflow: hidden;
+	width:438px;
 	border-radius: 105px;
 	display: inline-block;
 	position: relative;
 	background-color: rgba(0,0,0,.5);
+	overflow: hidden;
+	-webkit-mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
 }
 
 .memberAdd {
@@ -188,12 +191,12 @@ h2 {
 	opacity: .7;
 }
 
-.memberBlock > img {
+.memberBlock .profilePic {
 	width: 190px;
 	height: 190px;
 	padding:0px;
 	margin: 10px;
-	opacity: .9;
+	opacity: .8;
 	border-radius: 95px;
 	display: inline-block;
 }
@@ -206,6 +209,61 @@ h2 {
 	right:40px;
 }
 
+.memberOpen {
+	height: 210px;
+	margin:4% 2% 0% 2%;
+	width:65%;
+	border-radius: 105px;
+	display: inline-block;
+	position: relative;
+	background-color: rgba(0,0,0,.5);
+	overflow: hidden;
+}
+
+.memberOpen .profilePic {
+	position: relative;
+	left: 230px;
+	opacity: 1;
+	-webkit-transform: rotate(27deg);
+    transform: rotate(27deg);
+}
+
+.memberBlock .delete {
+	visibility: hidden;
+	z-index: 1;	
+	position: absolute;
+	top:0px;
+	left:-20px;
+	width:100px;
+	height:210px;
+	padding:70px 15px;
+	background-color: rgba(255,0,0,.3);
+/*	box-shadow: -10px 0px 35px 3px black inset;*/
+	opacity: .8;
+
+}
+
+.memberBlock .viewProfile {
+	visibility: hidden;
+	z-index: 0;	
+	position: absolute;
+	top:0px;
+	left:90px;
+	width:328px;
+	height:210px;
+	padding:70px 213px 70px 45px;
+	box-shadow: 0px 0px 50px 10px black inset;
+	border-top-right-radius: 105px;
+	border-bottom-right-radius:105px;
+	opacity: .8;
+
+}
+.memberOpen .delete, .memberOpen .viewProfile {
+	visibility: visible;
+}
+.memberOpen h3 {
+	display: none;
+}
 /*-----Recent Clusters-----*/
 .clusterBlock {
 	height: 210px;
