@@ -54,7 +54,7 @@ h2 {
 	position: absolute;
 	z-index:;
 	top: 0px;
-	left: 950px;
+	left: 686px;
 	-webkit-transition: left 5s;
     transition: left 5s;
 }
@@ -100,7 +100,7 @@ h2 {
 	width:676px;
     height:103%;
     top:0px;
-    left: -950px;
+    left: -676px;
 	padding-right:0px;
 	background-image:url("../images/backgrounds/sideBarBackground.png");
     background-size:cover;
@@ -185,6 +185,7 @@ h2 {
 	display: inline-block;
 	position: relative;
 	background-color: rgba(0,0,0,.5);
+	box-shadow: 0px 0px 50px 10px black inset;
 	overflow: hidden;
 	-webkit-mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
 }
@@ -205,9 +206,20 @@ h2 {
 	height: 190px;
 	padding:0px;
 	margin: 10px;
-	opacity: .8;
 	border-radius: 95px;
 	display: inline-block;
+	position: relative;
+	left: 0px;
+	-webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+	-webkit-transition: left .5s, transform .5s, -webkit-transform .5s;
+    transition: left .5s, transform .5s, -webkit-transform .5s;
+}
+
+.memberOpen .profilePic {
+	left: 225px;
+	-webkit-transform: rotate(27deg);
+    transform: rotate(27deg);
 }
 
 .memberName {
@@ -216,50 +228,53 @@ h2 {
 	position: absolute;
 	top:58px;
 	right:40px;
+	-webkit-transition: right .5s, transform .5s, -webkit-transform .5s;
+    transition: right .5s, transform .5s, -webkit-transform .5s;
 }
 
-.memberOpen .profilePic {
-	position: relative;
-	left: 225px;
-	-webkit-transform: rotate(27deg);
-    transform: rotate(27deg);
+.memberOpen .memberName {
+	right: -110px;
+	-webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
 }
 
 .memberBlock .delete {
-	visibility: hidden;
-	z-index: 1;	
+	z-index: -1;	
 	position: absolute;
 	top:0px;
-	left:-20px;
+	left:-100px;
 	width:100px;
 	height:210px;
-	padding:70px 15px;
+	padding:70px 10px;
+	border-right: 10px solid black;
 	background-color: rgba(255,0,0,.3);
 	opacity: .8;
+	-webkit-transition: left 1.5s;
+    transition: left 1.5s;
 
 }
 
 .memberBlock .viewProfile {
-	visibility: hidden;
 	z-index: 0;	
 	position: absolute;
 	top:0px;
 	left:90px;
-	width:328px;
+	width:348px;
 	height:210px;
-	padding:70px 213px 70px 45px;
-	box-shadow: 0px 0px 50px 10px black inset;
+	padding:70px 243px 70px 35px;
 	border-top-right-radius: 105px;
 	border-bottom-right-radius:105px;
 	opacity: .8;
 
 }
-.memberOpen .delete, .memberOpen .viewProfile {
-	visibility: visible;
+.memberOpen .delete {
+	left: -15px;
+	}
+
+.memberOpen .viewProfile {
+
 }
-.memberOpen h3 {
-	display: none;
-}
+
 /*-----Recent Clusters-----*/
 .clusterBlock {
 	height: 210px;
